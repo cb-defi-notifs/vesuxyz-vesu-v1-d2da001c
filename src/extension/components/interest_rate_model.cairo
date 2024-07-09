@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: ISC
+// This implementation is inspired by https://github.com/FraxFinance/fraxlend/blob/main/src/contracts/VariableInterestRate.sol”
+
 use vesu::{units::SCALE, packing::{SHIFT_32, SHIFT_64, split_32, split_64}};
 
 const UTILIZATION_SCALE: u256 = 100_000; // 1e5
